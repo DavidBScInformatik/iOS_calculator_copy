@@ -16,6 +16,7 @@
 		D074B9042A563AC400C930FA /* iOS_TaschenrechnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074B9032A563AC400C930FA /* iOS_TaschenrechnerTests.swift */; };
 		D074B90E2A563AC400C930FA /* iOS_TaschenrechnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074B90D2A563AC400C930FA /* iOS_TaschenrechnerUITests.swift */; };
 		D074B9102A563AC400C930FA /* iOS_TaschenrechnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074B90F2A563AC400C930FA /* iOS_TaschenrechnerUITestsLaunchTests.swift */; };
+		D074B91D2A563C7400C930FA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074B91C2A563C7400C930FA /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		D074B9092A563AC400C930FA /* iOS_TaschenrechnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_TaschenrechnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D074B90D2A563AC400C930FA /* iOS_TaschenrechnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TaschenrechnerUITests.swift; sourceTree = "<group>"; };
 		D074B90F2A563AC400C930FA /* iOS_TaschenrechnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TaschenrechnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D074B91C2A563C7400C930FA /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		D0B8BE502A5651EE00435F55 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		D074B8E02A563AC300C930FA = {
 			isa = PBXGroup;
 			children = (
+				D0B8BE502A5651EE00435F55 /* MyPlayground.playground */,
 				D074B8EB2A563AC300C930FA /* iOS_Taschenrechner */,
 				D074B9022A563AC400C930FA /* iOS_TaschenrechnerTests */,
 				D074B90C2A563AC400C930FA /* iOS_TaschenrechnerUITests */,
@@ -103,6 +107,7 @@
 				D074B8EE2A563AC300C930FA /* SceneDelegate.swift */,
 				D074B8F02A563AC300C930FA /* ViewController.swift */,
 				D074B8F22A563AC300C930FA /* Main.storyboard */,
+				D074B91C2A563C7400C930FA /* RoundButton.swift */,
 				D074B8F52A563AC400C930FA /* Assets.xcassets */,
 				D074B8F72A563AC400C930FA /* LaunchScreen.storyboard */,
 				D074B8FA2A563AC400C930FA /* Info.plist */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D074B91D2A563C7400C930FA /* RoundButton.swift in Sources */,
 				D074B8F12A563AC300C930FA /* ViewController.swift in Sources */,
 				D074B8ED2A563AC300C930FA /* AppDelegate.swift in Sources */,
 				D074B8EF2A563AC300C930FA /* SceneDelegate.swift in Sources */,
